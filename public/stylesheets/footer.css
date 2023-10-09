@@ -1,0 +1,41 @@
+/*File name: footer.css
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023*/
+
+footer {
+    background-color: #030303;
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: #7c7f83;
+    padding: 20px;
+    border-top: 2px solid #f4eeee;
+    text-align: center;
+}
+
+.contact-info,
+.location {
+    flex: 1;
+    max-width: 300px;
+    margin: 5px;
+    text-decoration: #fefefe;
+}
+
+.contact-info h3,
+.location h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-decoration: #fefefe;
+}
+
+.copyright {
+    margin-top: 20px;
+}

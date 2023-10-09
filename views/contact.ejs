@@ -1,0 +1,48 @@
+<!-- File name: contact.ejs
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023  -->
+
+<%- include('partials/header') %>
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/contact.css">
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <h2>Contact Me</h2>
+
+    <p>Email: meet36043@gmail.com</p>
+    <p>Phone: (437) 365-0108</p>
+
+    <form action="/submitContact" method="post">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required><br>
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
+
+  </html>
+  <%- include('partials/footer') %>

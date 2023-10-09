@@ -1,0 +1,56 @@
+<!-- File name: index.ejs
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023  -->
+
+<%- include('partials/header') %>
+
+
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+      <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body margin-bottom: 10px;>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" type="text/css" href="/views/header.ejs">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+    <h1>Welcome to My Portfolio</h1>
+    <h1>About Me</h1>
+    <p>You may find out more about my experience, talents and enthusiasm for sortware development in the "About Me"
+      area. I'll discuss my experiences as a computer engineer and my skills in coming up with original solutions.</p>
+    <a href="/about">About Me</a>
+
+    <h1>Projects</h1>
+    <p>Visit the "Projects" area to learn about some of the fascinating projects I've completed. I've had the chance to
+      participate in a few projects that highlight my technical know-how and problem-solving talents, ranging from web
+      applications to mobile apps. Look through my portiolio to get a sense of how I bring concepts to life.</p>
+    <a href="/projects">Projects</a>
+
+    <h1>Services</h1>
+    <p>Interested in the 'Services' I provide? Detailed information about the software development services I offer is
+      available in this area. I'm available to provide specialised solutions to satisty your particular needs, whether
+      you need assistance with developing custom applications, software consulting, or putting cutting-edge technology
+      into use.</p>
+    <a href="/services">Services</a>
+
+    <h1>Contact Me</h1>
+    <p>Please get in touch using the 'Contact' area!
+      Whether you have a project proposal, a chance to collaborate, or you just want to connect, I'd be glad to hear
+      from vou. Let's Talk about now we can collaborate to make
+      your software development objectives a reality.</p>
+    <a href="/contact">Contact Me</a>
+
+  </body>
+
+  <%- include('partials/footer') %>
+
+  </html>

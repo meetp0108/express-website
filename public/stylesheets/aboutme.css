@@ -1,0 +1,26 @@
+/*File name: aboutme.css
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h2,
+h3 {
+    color: #333;
+}
+
+img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}

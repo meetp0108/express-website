@@ -1,0 +1,33 @@
+/*File name: header.css
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023*/
+
+.navbar {
+  width: 100%;
+  background-color: #000000;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #9d92c5;
+}
+
+.active {
+  background-color: #4b2fca;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

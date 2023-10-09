@@ -1,0 +1,51 @@
+/*File name: projects.css
+  Student Name: Meetkumar Patel
+  Student Id: 301332660
+  Date: Oct 9th 2023*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.project {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-details {
+    padding: 0 10px;
+}
